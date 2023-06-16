@@ -57,6 +57,7 @@ export class HomePage {
     this.decimal = false;
     this.decimals = 0;
   }
+  //funcionalidade da virgula na calculadora
   virgula(){
     this.decimal=true
   }
