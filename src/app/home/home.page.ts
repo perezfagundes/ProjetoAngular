@@ -57,6 +57,9 @@ export class HomePage {
     this.decimal = false;
     this.decimals = 0;
   }
+  virgula(){
+    this.decimal=true
+  }
 //apagar erros e contas erradas 
   apagar() {
     this.var2 = 0;
@@ -65,6 +68,7 @@ export class HomePage {
     this.decimal = false;
     this.decimals = 0;
   }
+
 	}
 
   
