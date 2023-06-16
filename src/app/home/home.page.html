@@ -8,18 +8,21 @@
 
 <ion-content [fullscreen]="true">
  
+  <ion-row>
+    <input type="text" class="altura">
+  </ion-row>
 
   <ion-row>
     <ion-col> 
-      <ion-button expand="full" color="medium" shape="round" (click)="exibir(7)">%</ion-button>
+      <ion-button expand="full" color="medium" shape="round" (click)="exibir(7)">C</ion-button>
     </ion-col>
 
     <ion-col>
-      <ion-button expand="full" color="medium" shape="round" (click)="exibir(8)">C</ion-button>
+      <ion-button expand="full" color="medium" shape="round" (click)="exibir(8)">%</ion-button>
     </ion-col>
 
     <ion-col>
-      <ion-button expand="full" color="medium" shape="round" (click)="exibir(9)"></ion-button>
+      <ion-button expand="full" color="medium" shape="round" (click)="exibir(9)">+/-</ion-button>
     </ion-col>
 
     <ion-col>
@@ -91,8 +94,8 @@
 
 
   <ion-row>
-    <ion-col>
-      <ion-button expand="full" color="dark" shape="round" (click)="exibir(1)">0</ion-button>
+    <ion-col size="6">
+      <ion-button  expand="full" color="dark" shape="round" (click)="exibir(0)">0</ion-button>
     </ion-col>
 
     <ion-col>
