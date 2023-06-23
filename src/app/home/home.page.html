@@ -1,22 +1,64 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+
+<ion-menu contentId="main-content">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title>Menu Content</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-button color="danger" shape="round" routerLink="/super-mario">Super Mario</ion-button><br>
+    <ion-button color="danger" shape="round" routerLink="/princesa-peach">Princesa Peach</ion-button><br>
+    <ion-button color="danger" shape="round" routerLink="/luigi">Luigi</ion-button><br>
+    <ion-button color="danger" shape="round" routerLink="/yoshi">Yoshi</ion-button><br>
+    <ion-button color="danger" shape="round" routerLink="/bowser">Bowser</ion-button><br>
+    <ion-button color="danger" shape="round" routerLink="/toad">Toad</ion-button><br>
+    <ion-button color="danger" shape="round" routerLink="/wario">Wario</ion-button><br>
+    <ion-button color="danger" shape="round" routerLink="/waluigi">Waluigi</ion-button><br>
+    <ion-button color="danger" shape="round" routerLink="/princesa-daisy">Princesa Daisy</ion-button><br>
+    <ion-button color="danger" shape="round" routerLink="/rosalina">Rosalina</ion-button><br>
+    <ion-button color="danger" shape="round" routerLink="/donkey-kong">Donkey kong</ion-button><br> 
+    <ion-button color="danger" shape="round" routerLink="/diddy-kong">Diddy kong</ion-button><br>
+    <ion-button color="danger" shape="round" routerLink="/lakitu">Lakitu</ion-button><br>  
+    <ion-button color="danger" shape="round" routerLink="/shy-guy">Shy Guy</ion-button><br> 
+    <ion-button color="danger" shape="round" routerLink="/sobre">Sobre</ion-button><br> 
+    <ion-button color="success" shape="round" routerLink="/home.page.html">Voltar</ion-button><br> 
+  </ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button>
+          
+        </ion-menu-button>
+      </ion-buttons>
+      <ion-title class="logo">
+        <img src="https://2.bp.blogspot.com/-X_bUoftiY1c/V0ZE6vQ2fcI/AAAAAAAAA1Y/lDPGvXN0kYMX7SPtHuClh_uZmJGjwAFiACLcB/s1600/mario-bros.png" alt="">
+       
+      </ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <h3>Projeto com Bootstrap e Ionic!</h3>
-    <hr>
-    <p>Componentes Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components"> - UI Components</a></p>
-    <p>Componentes Bootstrap <a target="_blank" rel="noopener noreferrer" href="https://getbootstrap.com/docs/5.3/components/buttons/"> - UI Components</a></p>
-  </div>
+  <ion-content class="ion-padding">
+
+<h1>VENHA CONHECER MAIS SOBRE OS PERSONAGENS DE MARIO-BROS</h1>
+    <ion-row>
+      <ion-col>
+        <div class="imagem">
+           <img src="https://www.otempo.com.br/image/contentid/policy:1.2844890:1680737523/image-Por-que-Super-Mario-Bros-O-Filme-esta-sendo-detonado-pelos-criticos.jpg" alt="">
+      </div>
+  </ion-col>
+  </ion-row>
+
+
+
+
+  </ion-content>
+</div>
+
+
+
+
+ 
 </ion-content>
